@@ -83,7 +83,7 @@
 		        
 			</div>
 			<div style="position:absolute; bottom:120px left:auto; width:85%">
-			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=255 height=52 src="//music.163.com/outchain/player?type=2&id=1368906566&auto=1&height=32"></iframe>
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=255 height=52 src="//music.163.com/outchain/player?type=2&id=1368906566&auto=0&height=32"></iframe>
 			</div>
 		</nav>
 	</header>
@@ -230,9 +230,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><hr>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><hr>
+        <p><img src="/img/1.jpg" alt></p>
         
       
 
@@ -241,6 +239,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测试</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -310,7 +319,7 @@
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
@@ -367,6 +376,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">测试</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
