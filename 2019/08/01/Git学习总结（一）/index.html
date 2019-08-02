@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="朝zhao的博客">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/img/timg1.jpg">
-<meta property="og:updated_time" content="2019-08-01T10:52:53.459Z">
+<meta property="og:updated_time" content="2019-08-02T07:56:23.498Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git学习总结（一）">
 <meta name="twitter:image" content="http://yoursite.com/img/timg1.jpg">
@@ -174,13 +174,25 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=26093675&auto=0&height=32"></iframe>
 
 <h1 id="Git学习"><a href="#Git学习" class="headerlink" title="Git学习"></a>Git学习</h1><p>Git:<strong>分布式版本控制系统</strong></p>
-<p>安装Git后打开Git bush设置你的用户名和邮箱</p>
+<p><a href="https://github.com/waylau/git-for-win" target="_blank" rel="noopener">安装</a>(此处地址为国内下载站)Git后打开Git bush设置你的用户名和邮箱</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;your name&quot;</span><br><span class="line">git config --global user.email &quot;email@example.com&quot;</span><br></pre></td></tr></table></figure>
 
-<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mkdir learngit //创目录</span><br><span class="line">cd learngit    //进入learngit</span><br><span class="line">pwd            //显示当前路径</span><br><span class="line">git init       //把此时目录变成Git可管理的仓库</span><br><span class="line">vi readme.txt  //此命令可创建也可修改一个文件</span><br><span class="line">git add readme.txt  //把文件添加到仓库</span><br><span class="line">git commit -m “wrote a readme file”  //把文件提交到仓库 -m后输入的是本次提交的版本也可称为提示</span><br></pre></td></tr></table></figure>
+<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mkdir learngit //创目录</span><br><span class="line">cd learngit    //进入learngit</span><br><span class="line">pwd            //显示当前路径</span><br><span class="line">git init       //把此时目录变成Git可管理的仓库</span><br><span class="line">vi readme.txt  //此命令可创建也可修改一个文件</span><br><span class="line">git add readme.txt  //把文件添加到仓库</span><br><span class="line">git commit -m “wrote a readme file”  //把文件提交到仓库-m后输入的是本次提交的版本也可称为提示</span><br></pre></td></tr></table></figure>
 
 <p><strong>commit可一次性提交很多文件，所以可以多次add不同文件后提交</strong></p>
-<p>之后对readme.txt文件进行修改，修改后，我们可以使用git status命令查看仓库当前的状态。而想要知道修改了什么内容，可以用git diff命令查看，diff就是difference，之后进行提交git add 和git commit。</p>
+<p>查看仓库当前状态</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+
+<p>查看仓库修改内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git diff</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
 
       
 
