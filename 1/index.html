@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://ten-sun-moon.github.io">
-  <title>Hello World | 朝zhao</title>
+  <title>朝zhao</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://ten-sun-moon.github.io/2019/07/30/hello-world/index.html">
+  <meta name="description" content="HTML5 3D魔方小游戏 - 源码之家                                THE       CUBE                 双击即可开始                 0:00                 Complete!                        Best Time!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="朝zhao">
+<meta property="og:url" content="https://ten-sun-moon.github.io/1/index.html">
 <meta property="og:site_name" content="朝zhao">
+<meta property="og:description" content="HTML5 3D魔方小游戏 - 源码之家                                THE       CUBE                 双击即可开始                 0:00                 Complete!                        Best Time!">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://ten-sun-moon.github.io/img/timg.jpg">
-<meta property="og:updated_time" content="2019-08-05T02:44:13.352Z">
+<meta property="og:updated_time" content="2019-04-01T09:22:23.886Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:image" content="https://ten-sun-moon.github.io/img/timg.jpg">
+<meta name="twitter:title" content="朝zhao">
+<meta name="twitter:description" content="HTML5 3D魔方小游戏 - 源码之家                                THE       CUBE                 双击即可开始                 0:00                 Complete!                        Best Time!">
   
     <link rel="alternative" href="/atom.xml" title="朝zhao" type="application/atom+xml">
   
@@ -148,36 +149,100 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Hello World
-    </h1>
-  
-
-        
-        <a href="/2019/07/30/hello-world/" class="archive-article-date">
-  	<time datetime="2019-07-30T09:37:36.802Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-30</time>
-</a>
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/img/timg.jpg" alt></p>
-<a id="more"></a>
-<blockquote>
-<p>未来无人知晓，加油吧，少年。</p>
-</blockquote>
-<p><code>System.out.println(&quot;Hello World&quot;);</code></p>
-<p><a href="/lzp">ha</a></p>
-<p><a href="/resume">w</a></p>
-<p><a href="/1">d</a></p>
+        <!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="UTF-8">
+<title>HTML5 3D魔方小游戏 - 源码之家</title>
+<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="ui">
+
+  <div class="ui__background"></div>
+
+  <div class="ui__game"></div>
+
+  <div class="ui__texts">
+    <h1 class="text text--title">
+      <span>THE</span>
+      <span>CUBE</span>
+    </h1>
+    <div class="text text--note">
+      双击即可开始
+    </div>
+    <div class="text text--timer">
+      0:00
+    </div>
+    <div class="text text--complete">
+      <span>Complete!</span>
+    </div>
+    <div class="text text--best-time">
+      <icon trophy></icon>
+      <span>Best Time!</span>
+    </div>
+  </div>
+
+  <div class="ui__prefs">
+    <range name="flip" title="Flip Type" list="Swift&nbsp;,Smooth,Bounce"></range>
+    <range name="scramble" title="Scramble Length" list="20,25,30"></range>
+    <range name="fov" title="Camera Angle" list="Ortographic,Perspective"></range>
+    <range name="theme" title="Color Scheme" list="Cube,Erno,Dust,Camo,Rain"></range>
+  </div>
+
+  <div class="ui__stats">
+    <div class="stats" name="total-solves">
+      <i>Total solves:</i><b>-</b>
+    </div>
+    <div class="stats" name="best-time">
+      <i>Best time:</i><b>-</b>
+    </div>
+    <div class="stats" name="worst-time">
+      <i>Worst time:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-5">
+      <i>Average of 5:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-12">
+      <i>Average of 12:</i><b>-</b>
+    </div>
+    <div class="stats" name="average-25">
+      <i>Average of 25:</i><b>-</b>
+    </div>
+  </div>
+
+  <div class="ui__buttons">
+    <button class="btn btn--bl btn--stats">
+      <icon trophy></icon>
+    </button>
+    <button class="btn btn--bl btn--prefs">
+      <icon settings></icon>
+    </button>
+    <button class="btn btn--bl btn--back">
+      <icon back></icon>
+    </button>
+    <button class="btn btn--br btn--pwa">
+    </button>
+  </div>
+
+</div>
+
+<script src="js/three.min.js"></script>
+<script src="js/index.js"></script>
+<div style="text-align:center;">
+<p>更多源码：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+</body>
+</html>
       
 
       
@@ -256,7 +321,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://ten-sun-moon.github.io/2019/07/30/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://ten-sun-moon.github.io/1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -268,25 +333,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-    <a href="/2019/08/02/Git学习笔记（一）/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Git学习笔记（一）
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/07/29/测试/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">测试</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -308,7 +354,10 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    目录，不存在的…
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#null"><span class="toc-number">1.</span> <span class="toc-text">
+      THE
+      CUBE
+    </span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -373,7 +422,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
