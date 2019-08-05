@@ -376,10 +376,10 @@
     	<div class="footer-left">
     		&copy; 2019 朝zhao
     	</div>
-	<div class="footer-right">
-                感谢有你 伴我同行
+	<div class="footer-right" >
+                <b>感谢有你 伴我同行</b>
         </div>
-	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+	<span id="timeDate" style="color:#00bfff">载入天数...</span><span id="times" style="color:#00bfff">载入时分秒...</span>
     <script>
         var now = new Date();
         function createtime() {
@@ -391,16 +391,16 @@
             mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
             seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
             snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-            document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+            document.getElementById("timeDate").innerHTML = "✧(≖ ◡ ≖✿)本站已运行 "+dnum+" 天 ";
             document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
         }
     setInterval("createtime()",250);
     </script>
     </br>
 	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-	    <a>|</a>
-	    <span id="busuanzi_container_site_uv">您是本站第<span id="busuanzi_value_site_uv"></span>位访客</span>
+            <span id="busuanzi_container_site_pv" style="color:#00bfff">φ(≧ω≦*)♪本站的访问量<u><span id="busuanzi_value_site_pv"></span></u>次</span>
+	    <span style="color:#996b1f">||</span>
+	    <span id="busuanzi_container_site_uv" style="color:#00bfff">您是萌萌哒本站第<u><span id="busuanzi_value_site_uv"></span></u>位访客(*´∀`)~<span style='color:pink'>♥</span></span>
     </div>
   </div>
 </footer>
