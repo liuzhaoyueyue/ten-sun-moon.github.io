@@ -254,7 +254,7 @@ $(function() {
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>QQ:1754909385</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>微信:15582889155</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>最后非常感谢您愿意花3分钟看完我的简历！</span></div>");
-	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>欢迎大家来找我玩O</span></div>");
+	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>欢迎大家来找我玩♪(^∇^*)</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 
 });
