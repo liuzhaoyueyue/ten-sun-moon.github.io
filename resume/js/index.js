@@ -2,12 +2,12 @@ $(function() {
 	var c = new Coder("style-text");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*hi,我的名字叫刘朝朋，是一名大三学生</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是学习</div>",2000);
-	c.load("<div class='bef_comment writecode'>&nbsp;*让我们来点实际的，看看我能做些什么</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*hi,我的名字叫刘朝朋，是一名在校大学生</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*智商为零，情商为负，也就打打代码才能维持生活的样子。</div>",2000);
 	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
 	c.load("<p><div class='bef_comment writecode'>/**</div>");
-	c.load("<div class='bef_comment writecode'>&nbsp;*让我们开始吧,我们先来让所有的变化都以动画的效果来显示</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*是时候展现真正的技术了（Pc端观看更佳）</div>");
+	c.load("<div class='bef_comment writecode'>&nbsp;*让我们先来把所有的变化都以动画的效果来显示</div>");
 	c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
 	c.load("<p><div class='code writecode'><span class='bef_selector'>*</span> {</div>");
 	c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>-webkit-transition</span>: <span class='bef_value'> all 1s</span>;</div>");
@@ -158,7 +158,7 @@ $(function() {
   	c.load("<div class='code writecode'>}</div></p>");
   	c.load("<p><div class='comment writecode'>/**</div>");
 	c.load("<div class='comment writecode'>&nbsp;*现在我们差不多可以开始写我的简历了</div>");
-	c.load("<div class='comment writecode'>&nbsp;*我相信你来这不只是为了看这些漂亮的颜色</div>");
+	c.load("<div class='comment writecode'>&nbsp;*让我们将目光转向左边</div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 	c.addClass("#work-text","pre_work-text");
 	c.load("<p><div class='code writecode'><span class='selector'>pre</span><span class='key'>:not(#style-text)</span> { </div>");
@@ -176,10 +176,10 @@ $(function() {
 	w.load("<h1 class='writecode'>技能</h1>");
 	w.load("<ul>");
 	w.load("<p><div class='writecode'>精通Java、Python、JavaScript、PHP、SQL、C、C++等单词的拼写</div></p>");
-	w.load("<div class='writecode'>熟练掌握英雄联盟、dota2、王者荣耀等各类moba游戏的卸载与安装</div></p>");
+	w.load("<div class='writecode'>熟练掌握英雄联盟、dota2、王者荣耀、cf、dnf等各类游戏的卸载与安装</div></p>");
 	w.load("<div class='writecode'>对Mac、Linux、Windows等系统的开关了如指掌</div></p>");
 	w.load("</ul>");
-	w.load("<h1 class='writecode'>求求您点点吧(*´∀`)~<span style='color:pink;'>♥</span> </h1>");
+	w.load("<h1 class='writecode'>联系我吧(*´∀`)~<span style='color:pink;'>♥</span> </h1>");
 	w.load("<ul>");
 	w.load("<p><li class='writecode'>mail:1754909385@qq.com</li>");
 	w.load("<li class='writecode'>blog:<a href='https://ten-sun-moon.github.io/' target='_blank'>my.blog</a></li>");
@@ -264,8 +264,8 @@ $(function() {
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>如果你想和我联系</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>QQ:1754909385</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>微信:15582889155</span></div>");
+	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>欢迎来找我玩♪(^∇^*)</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>最后非常感谢您愿意花3分钟看完我的简历！</span></div>");
-	c.load("<div class='comment writecode'>&nbsp;*<span style='color:skyblue'>欢迎大家来找我玩♪(^∇^*)</span></div>");
 	c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 
 });
